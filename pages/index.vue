@@ -26,7 +26,7 @@
         //     process.env.NODE_ENV === 'production'
         //       ? 'netlify'
         //       : null /* defaults to ipx or ipxStatic */,
-        placeholder: false, // placeholder image before the actual image is fully loaded.
+        placeholder: true, // placeholder image before the actual image is fully loaded.
       },
       true /* return bgStyles */,
     ),
